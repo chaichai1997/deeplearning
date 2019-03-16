@@ -110,13 +110,115 @@ def test_range_alpha(*args):
     plt.show()
 
 
+"""
+Lasso,L1正则化 
+__init__(self, alpha=1.0, fit_intercept=True, normalize=False,
+                 precompute=False, copy_X=True, max_iter=1000,
+                 tol=1e-4, warm_start=False, positive=False,
+                 random_state=None, selection='cyclic'):
+    参数：
+        max_iter：最大迭代次数
+        precompute：布尔值，是否提前计算Game矩阵来加速计算
+        warm_start：布尔值，是否使用前一次训练结果继续训练
+        selection：
+            cyclic：从前向后依次选择权重向量更新
+            random：随机选择权重向量更新   
+"""
+
+
+def test_Lasso(*args):
+    X_train, X_test, y_train, y_test = args
+    regr = linear_model.Lasso()
+    regr.fit(X_train, y_train)
+    print('Coefficients:%s , intercept %.2f' % (regr.coef_, regr.intercept_))
+    print("residual sum of squares: %.2f" % np.mean((regr.predict(X_test) - y_test)
+                                                    ** 2))
+    print('Score: %.2f' % regr.score(X_test, y_test))
+
+
+def test_Lasso_alpha(*args):
+    X_train, X_test, y_train, y_test = args
+    alphas = [0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100,
+              200, 500, 1000]
+    scores = []
+    for i, alpha in enumerate(alphas):
+        regr = linear_model.Lasso(alpha=alpha)
+        regr.fit(X_train, y_train)
+        scores.append(regr.score(X_test, y_test))
+    # 绘图
+    fig = plt.figure()
+    ax = fig.add_subplot(1, 1, 1)
+    ax.plot(alphas, scores)
+    ax.set_xlabel(r"$\alpha$")
+    ax.set_ylabel(r"score")
+    ax.set_xscale('log')
+    ax.set_title("Lasso")
+    plt.show()
+
+
+"""
+  ElaticNet回归是对Lasso回归与岭回归的融合，其惩罚项是L1范数和L2范数的一个权衡
+  _init__(self, alpha=1.0, l1_ratio=0.5, fit_intercept=True,
+                 normalize=False, precompute=False, max_iter=1000,
+                 copy_X=True, tol=1e-4, warm_start=False, positive=False,
+                 random_state=None, selection='cyclic'):
+  参数：
+    l1_ratio ：
+    positive： 强制要求权重分量都为正数
+  属性：
+    n_iter_:实际迭代次数
+    
+"""
+
+
+def test_ElaticNet(*args):
+    X_train, X_test, y_train, y_test = args
+    regr = linear_model.ElasticNet()
+    regr.fit(X_train, y_train)
+    print('Coefficients:%s , intercept %.2f' % (regr.coef_, regr.intercept_))
+    print("residual sum of squares: %.2f" % np.mean((regr.predict(X_test) - y_test)
+                                                ** 2))
+    print('Score: %.2f' % regr.score(X_test, y_test))
+
+
+def test_ElasticNet_alpha_rho(*args):
+    X_train, X_test, y_train, y_test = args
+    alphas = np.logspace(-2, 2)
+    rhos = np.linspace(0.01, 1)
+    scores = []
+    for alpha in alphas:
+        for rho in rhos:
+            regr = linear_model.ElasticNet(alpha=alpha, l1_ratio=rho)
+            regr.fit(X_train, y_train)
+            scores.append(regr.score(X_test, y_test))
+    # 绘图（曲面图 3D）
+    alphas, rhos = np.meshgrid(alphas, rhos)
+    scores = np.array(scores).reshape(alphas.shape)
+    from mpl_toolkits.mplot3d import Axes3D
+    from matplotlib import cm
+    fig = plt.figure()
+    ax = Axes3D(fig)
+    surf = ax.plot_surface(alphas, rhos, scores, rstride=1, cstride=1, cmap=cm.jet,
+                           linewidth=0, antialiased=False)
+    fig.colorbar(surf, shrink=0.5, aspect=0.5)
+    ax.set_xlabel(r"$\alpha$")
+    ax.set_ylabel(r"$\rho$")
+    ax.set_zlabel(r"score")
+    ax.set_title("ElasticNet")
+    plt.show()
+
+
 if __name__ == '__main__':
     X_train, X_test, y_train,  y_test = load_data()
     print("普通线性回归")
     test_LinearRegression(X_train, X_test, y_train,  y_test)
     print("岭回归")
     test_Ridge(X_train, X_test, y_train,  y_test)
-    test_range_alpha(X_train, X_test, y_train,  y_test)
+    # test_range_alpha(X_train, X_test, y_train,  y_test)
+    test_Lasso(X_train, X_test, y_train,  y_test)
+    # test_Lasso_alpha(X_train, X_test, y_train,  y_test)
+    test_ElaticNet(X_train, X_test, y_train,  y_test)
+    test_ElasticNet_alpha_rho(X_train, X_test, y_train,  y_test)
 
 
 
