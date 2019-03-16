@@ -59,7 +59,16 @@ def test_LinearRegression(*data):
         solver：指定最优化问题的解决算法
             auto：自动
             svd: 使用奇异值分解计算回归系数
-        
+        tol:判读迭代是否收敛的阈值
+        random_state： 随机生成器
+     属性：
+        coef_:Coefficient: 权重向量
+        intercept_:intercept： b值
+     方法：
+        xx.fit()从训练集中学习
+        xx.predict() 使用测试集测试
+        xx.score()返回预测性能得分
+    
         
    
 """
@@ -75,12 +84,39 @@ def test_Ridge(*args):
     print('Score: %.2f' % regr.score(X_test, y_test))
 
 
+"""
+  检验alpha对预测性能的影响
+  enumerate() 函数用于将一个可遍历的数据对象(如列表、元组或字符串)组合为一个索引序列
+"""
+
+
+def test_range_alpha(*args):
+    X_train, X_test, y_train, y_test = args
+    alphas = [0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100,
+              200, 500, 1000]
+    scores = []
+    for i, alpha in enumerate(alphas):
+        regr = linear_model.Ridge(alpha=alpha)
+        regr.fit(X_train, y_train)
+        scores.append(regr.score(X_test, y_test))
+    # 绘图
+    fig = plt.figure()
+    ax = fig.add_subplot(1, 1, 1)
+    ax.plot(alphas, scores)
+    ax.set_xlabel(r"$\alpha$")
+    ax.set_ylabel(r"score")
+    ax.set_xscale('log')
+    ax.set_title("Ridge")
+    plt.show()
+
+
 if __name__ == '__main__':
     X_train, X_test, y_train,  y_test = load_data()
     print("普通线性回归")
     test_LinearRegression(X_train, X_test, y_train,  y_test)
     print("岭回归")
     test_Ridge(X_train, X_test, y_train,  y_test)
+    test_range_alpha(X_train, X_test, y_train,  y_test)
 
 
 
