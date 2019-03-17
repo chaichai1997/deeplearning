@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+"""
+逻辑回归：LogisticRegression
+    属于分类模型，不仅预测类别，还可得到近似概率预测
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets, linear_model, discriminant_analysis, model_selection

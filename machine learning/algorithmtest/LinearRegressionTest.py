@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+线性回归：LinearRegression，学习得到一个线性模型，尽可能准确预测输出
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets, linear_model, discriminant_analysis, model_selection
