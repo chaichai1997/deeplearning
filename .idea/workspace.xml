@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,7 +36,7 @@
           <entry key="data" value="7" />
           <entry key="data-00000-of-00001" value="1" />
           <entry key="ipynb" value="13" />
-          <entry key="py" value="58" />
+          <entry key="py" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -44,20 +44,20 @@
           <entry key="IPNB" value="13" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="58" />
+          <entry key="Python" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="12088" />
-          <entry key="txt" value="146" />
+          <entry key="py" value="12977" />
+          <entry key="txt" value="205" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="184" />
-          <entry key="Python" value="12088" />
+          <entry key="PLAIN_TEXT" value="243" />
+          <entry key="Python" value="12977" />
         </counts>
       </usages-collector>
     </session>
@@ -65,24 +65,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py">
+        <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-662">
-              <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+            <state relative-caret-position="-162">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#94#112#0" expanded="true" />
-                <marker date="1552826441231" expanded="true" signature="1465:3700" ph="..." />
-                <marker date="1552826441231" expanded="true" signature="2693:3388" ph="..." />
+                <element signature="e#25#43#0" expanded="true" />
+                <element signature="e#447#455#1" />
+                <marker date="1552828207205" expanded="true" signature="206:1463" ph="..." />
+                <marker date="1552828207205" expanded="true" signature="1504:1509" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/axes/_axes.py">
+        <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/tree/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3938">
-              <caret line="1379" column="8" selection-start-line="1379" selection-start-column="8" selection-end-line="1379" selection-end-column="8" />
+            <state relative-caret-position="263">
+              <caret line="742" column="32" lean-forward="true" selection-start-line="729" selection-start-column="9" selection-end-line="742" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -131,6 +132,7 @@
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/LinearRegressionTest.py" />
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/LogisticRegressionTest.py" />
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py" />
+        <option value="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" />
       </list>
     </option>
   </component>
@@ -202,7 +204,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552826451408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552828207331" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -228,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DecisionTreeRegressor">
+  <component name="RunManager" selected="Python.DecisonTreeClassifier">
     <configuration name="DecisionTreeRegressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,6 +244,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DecisonTreeClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning/algorithmtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,41 +336,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="基于最小二乘法的一元线性回归i" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/基于最小二乘法的一元线性回归i.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.基于最小二乘法的一元线性回归i" />
       <item itemvalue="Python.LinearRegressionTest" />
       <item itemvalue="Python.LogisticRegressionTest" />
       <item itemvalue="Python.LinearDiscriminantAna;ysis" />
       <item itemvalue="Python.DecisionTreeRegressor" />
+      <item itemvalue="Python.DecisonTreeClassifier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DecisonTreeClassifier" />
         <item itemvalue="Python.DecisionTreeRegressor" />
         <item itemvalue="Python.LinearDiscriminantAna;ysis" />
         <item itemvalue="Python.LogisticRegressionTest" />
         <item itemvalue="Python.LinearRegressionTest" />
-        <item itemvalue="Python.基于最小二乘法的一元线性回归i" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552819890475</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DecisionTreeRegession 决策树回归即参数影响（切分方式与决策树深度">
+      <created>1552826506224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552826506224</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -476,7 +485,8 @@
     <MESSAGE value="ElasticNet回归，L1，L2权衡，参数调节效果图3D" />
     <MESSAGE value="Logistic Regression及其参数测试" />
     <MESSAGE value="LDA 线性判别分析（鸢尾花）" />
-    <option name="LAST_COMMIT_MESSAGE" value="LDA 线性判别分析（鸢尾花）" />
+    <MESSAGE value="DecisionTreeRegession 决策树回归即参数影响（切分方式与决策树深度" />
+    <option name="LAST_COMMIT_MESSAGE" value="DecisionTreeRegession 决策树回归即参数影响（切分方式与决策树深度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -631,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/model_selection/_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1119">
-          <caret line="1975" column="60" lean-forward="true" selection-start-line="1975" selection-start-column="60" selection-end-line="1975" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/linear_model/ridge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -760,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/tree/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="1072" column="8" lean-forward="true" selection-start-line="1072" selection-start-column="8" selection-end-line="1084" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/python_stubs/292968200/numpy/core/_multiarray_umath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1305">
@@ -781,6 +777,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+          <folding>
+            <element signature="e#94#112#0" expanded="true" />
+            <marker date="1552826441231" expanded="true" signature="1465:3700" ph="..." />
+            <marker date="1552826441231" expanded="true" signature="2693:3388" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3938">
@@ -788,14 +796,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py">
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-662">
-          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+        <state relative-caret-position="250">
+          <caret line="2004" column="8" lean-forward="true" selection-start-line="2004" selection-start-column="8" selection-end-line="2005" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="742" column="32" lean-forward="true" selection-start-line="729" selection-start-column="9" selection-end-line="742" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#94#112#0" expanded="true" />
-            <marker date="1552826441231" expanded="true" signature="1465:3700" ph="..." />
-            <marker date="1552826441231" expanded="true" signature="2693:3388" ph="..." />
+            <element signature="e#25#43#0" expanded="true" />
+            <element signature="e#447#455#1" />
+            <marker date="1552828207205" expanded="true" signature="206:1463" ph="..." />
+            <marker date="1552828207205" expanded="true" signature="1504:1509" ph="..." />
           </folding>
         </state>
       </provider>
