@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machine learning/algorithmtest/LinearDiscriminantAna;ysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine learning/algorithmtest/LinearDiscriminantAna;ysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machine learning/algorithmtest/LinearRegressionTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine learning/algorithmtest/LinearRegressionTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machine learning/algorithmtest/LogisticRegressionTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine learning/algorithmtest/LogisticRegressionTest.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +36,7 @@
           <entry key="data" value="7" />
           <entry key="data-00000-of-00001" value="1" />
           <entry key="ipynb" value="13" />
-          <entry key="py" value="51" />
+          <entry key="py" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -46,20 +44,20 @@
           <entry key="IPNB" value="13" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="51" />
+          <entry key="Python" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="10031" />
-          <entry key="txt" value="125" />
+          <entry key="py" value="12088" />
+          <entry key="txt" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="163" />
-          <entry key="Python" value="10031" />
+          <entry key="PLAIN_TEXT" value="184" />
+          <entry key="Python" value="12088" />
         </counts>
       </usages-collector>
     </session>
@@ -67,23 +65,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/LinearDiscriminantAna;ysis.py">
+        <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="-662">
+              <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
               <folding>
-                <marker date="1552819610765" expanded="true" signature="1523:1528" ph="..." />
-                <marker date="1552819610765" expanded="true" signature="1815:2269" ph="..." />
+                <element signature="e#94#112#0" expanded="true" />
+                <marker date="1552826441231" expanded="true" signature="1465:3700" ph="..." />
+                <marker date="1552826441231" expanded="true" signature="2693:3388" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/discriminant_analysis.py">
+        <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/axes/_axes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="256" column="49" lean-forward="true" selection-start-line="249" selection-start-column="9" selection-end-line="256" selection-end-column="49" />
+            <state relative-caret-position="-3938">
+              <caret line="1379" column="8" selection-start-line="1379" selection-start-column="8" selection-end-line="1379" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -131,6 +130,7 @@
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/LinearDiscriminantAna;ysis.py" />
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/LinearRegressionTest.py" />
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/LogisticRegressionTest.py" />
+        <option value="$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py" />
       </list>
     </option>
   </component>
@@ -202,7 +202,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552819856515" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552826451408" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -228,7 +228,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LinearDiscriminantAna;ysis">
+  <component name="RunManager" selected="Python.DecisionTreeRegressor">
+    <configuration name="DecisionTreeRegressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning/algorithmtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LinearDiscriminantAna;ysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,41 +334,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="luojihuo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\deep learning\code\machine learning\神经网络实现逻辑或.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.luojihuo" />
       <item itemvalue="Python.基于最小二乘法的一元线性回归i" />
       <item itemvalue="Python.LinearRegressionTest" />
       <item itemvalue="Python.LogisticRegressionTest" />
       <item itemvalue="Python.LinearDiscriminantAna;ysis" />
+      <item itemvalue="Python.DecisionTreeRegressor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DecisionTreeRegressor" />
         <item itemvalue="Python.LinearDiscriminantAna;ysis" />
         <item itemvalue="Python.LogisticRegressionTest" />
         <item itemvalue="Python.LinearRegressionTest" />
         <item itemvalue="Python.基于最小二乘法的一元线性回归i" />
-        <item itemvalue="Python.luojihuo" />
       </list>
     </recent_temporary>
   </component>
@@ -397,14 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552813149769</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LDA 线性判别分析（鸢尾花）">
+      <created>1552819890475</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552819890475</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -413,7 +420,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36288998" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36288998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +475,8 @@
     <MESSAGE value="岭回归 L2正则化 阿尔法取值测试" />
     <MESSAGE value="ElasticNet回归，L1，L2权衡，参数调节效果图3D" />
     <MESSAGE value="Logistic Regression及其参数测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logistic Regression及其参数测试" />
+    <MESSAGE value="LDA 线性判别分析（鸢尾花）" />
+    <option name="LAST_COMMIT_MESSAGE" value="LDA 线性判别分析（鸢尾花）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,6 +749,53 @@
           <folding>
             <marker date="1552819610765" expanded="true" signature="1523:1528" ph="..." />
             <marker date="1552819610765" expanded="true" signature="1815:2269" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/numpy/ma/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4495" column="8" selection-start-line="4495" selection-start-column="8" selection-end-line="4495" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="1072" column="8" lean-forward="true" selection-start-line="1072" selection-start-column="8" selection-end-line="1084" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/python_stubs/292968200/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1305">
+          <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="1222" column="53" lean-forward="true" selection-start-line="1222" selection-start-column="53" selection-end-line="1222" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3938">
+          <caret line="1379" column="8" selection-start-line="1379" selection-start-column="8" selection-end-line="1379" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-662">
+          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+          <folding>
+            <element signature="e#94#112#0" expanded="true" />
+            <marker date="1552826441231" expanded="true" signature="1465:3700" ph="..." />
+            <marker date="1552826441231" expanded="true" signature="2693:3388" ph="..." />
           </folding>
         </state>
       </provider>
