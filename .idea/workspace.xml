@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" line="82" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,17 +19,18 @@
     <session id="1747600691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,7 +40,7 @@
           <entry key="data" value="7" />
           <entry key="data-00000-of-00001" value="1" />
           <entry key="ipynb" value="13" />
-          <entry key="py" value="61" />
+          <entry key="py" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -44,20 +48,20 @@
           <entry key="IPNB" value="13" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="61" />
+          <entry key="Python" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="12977" />
-          <entry key="txt" value="205" />
+          <entry key="py" value="13870" />
+          <entry key="txt" value="247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="243" />
-          <entry key="Python" value="12977" />
+          <entry key="PLAIN_TEXT" value="285" />
+          <entry key="Python" value="13870" />
         </counts>
       </usages-collector>
     </session>
@@ -67,23 +71,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="238">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
-                <element signature="e#25#43#0" expanded="true" />
-                <element signature="e#447#455#1" />
-                <marker date="1552828207205" expanded="true" signature="206:1463" ph="..." />
-                <marker date="1552828207205" expanded="true" signature="1504:1509" ph="..." />
+                <marker date="1552893927591" expanded="true" signature="206:1463" ph="..." />
+                <marker date="1552893927591" expanded="true" signature="1504:1509" ph="..." />
+                <marker date="1552893927591" expanded="true" signature="2679:3410" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/tree/tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="742" column="32" lean-forward="true" selection-start-line="729" selection-start-column="9" selection-end-line="742" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -176,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,13 +193,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552828207331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552828251608" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -413,14 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552826506224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DecisionTreeClassifier 决策树分类基本调用方式">
+      <created>1552828249007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552828249007</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,7 +487,8 @@
     <MESSAGE value="Logistic Regression及其参数测试" />
     <MESSAGE value="LDA 线性判别分析（鸢尾花）" />
     <MESSAGE value="DecisionTreeRegession 决策树回归即参数影响（切分方式与决策树深度" />
-    <option name="LAST_COMMIT_MESSAGE" value="DecisionTreeRegession 决策树回归即参数影响（切分方式与决策树深度" />
+    <MESSAGE value="DecisionTreeClassifier 决策树分类基本调用方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="DecisionTreeClassifier 决策树分类基本调用方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,10 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-            <marker date="1552819705249" expanded="true" signature="6312:6313" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,12 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-            <marker date="1552819836832" expanded="true" signature="668:673" ph="..." />
-            <marker date="1552819836832" expanded="true" signature="2079:2084" ph="..." />
-            <marker date="1552819836832" expanded="true" signature="3321:3323" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,10 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <marker date="1552819610765" expanded="true" signature="1523:1528" ph="..." />
-            <marker date="1552819610765" expanded="true" signature="1815:2269" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,22 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/figure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="1222" column="53" lean-forward="true" selection-start-line="1222" selection-start-column="53" selection-end-line="1222" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-512">
           <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-          <folding>
-            <element signature="e#94#112#0" expanded="true" />
-            <marker date="1552826441231" expanded="true" signature="1465:3700" ph="..." />
-            <marker date="1552826441231" expanded="true" signature="2693:3388" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,19 +782,25 @@
     <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/tree/tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="742" column="32" lean-forward="true" selection-start-line="729" selection-start-column="9" selection-end-line="742" selection-end-column="32" />
+          <caret line="742" column="32" selection-start-line="729" selection-start-column="9" selection-end-line="742" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1155">
+          <caret line="1216" column="8" selection-start-line="1216" selection-start-column="8" selection-end-line="1216" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="238">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           <folding>
-            <element signature="e#25#43#0" expanded="true" />
-            <element signature="e#447#455#1" />
-            <marker date="1552828207205" expanded="true" signature="206:1463" ph="..." />
-            <marker date="1552828207205" expanded="true" signature="1504:1509" ph="..." />
+            <marker date="1552893927591" expanded="true" signature="206:1463" ph="..." />
+            <marker date="1552893927591" expanded="true" signature="1504:1509" ph="..." />
+            <marker date="1552893927591" expanded="true" signature="2679:3410" ph="..." />
           </folding>
         </state>
       </provider>

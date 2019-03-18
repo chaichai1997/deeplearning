@@ -56,6 +56,72 @@ def test_DecisionTreeClassifier(*args):
     print("test score", clf.score(X_test, y_test))
 
 
+"""
+    测试评价准则Criterion对分类性能的影响
+    测试结果：
+     gini系数优于entropy
+"""
+
+
+def test_DecisonTreeClassfier_criterion(*args):
+    X_train, X_test, y_train, y_test =args
+    criterions = ['gini', 'entropy']
+    for i in criterions:
+        clf = DecisionTreeClassifier(criterion=i)
+        clf.fit(X_train, y_train)
+        print("criterion:%s" % i)
+        print("training score", clf.score(X_train, y_train))
+        print("test score", clf.score(X_test, y_test))
+
+
+"""
+测试划分方式对分类性能的影响
+测试结果：随即划分优于最佳划分
+"""
+
+
+def test_DecisonTreeClassfier_splitter(*args):
+    X_train, X_test, y_train, y_test =args
+    splitter = ['best', 'random']
+    for i in splitter:
+        clf = DecisionTreeClassifier(splitter=i)
+        clf.fit(X_train, y_train)
+        print("criterion:%s" % i)
+        print("training score", clf.score(X_train, y_train))
+        print("test score", clf.score(X_test, y_test))
+
+
+"""
+决策树深度对精度的影响
+"""
+
+
+def test_DecisonTreeClassfier_depth(*args, maxdepth):
+    X_train, X_test, y_train, y_test = args
+    depth = np.arange(1, maxdepth)
+    training_score = []
+    testing_score = []
+    for i in depth:
+        clf = DecisionTreeClassifier(max_depth=i)
+        clf.fit(X_train, y_train)
+        training_score.append(clf.score(X_train,y_train))
+        testing_score.append(clf.score(X_test, y_test))
+    # 绘图
+    fig = plt.figure()
+    ax = fig.add_subplot(1, 1, 1)
+    ax.plot(depth, training_score, label="training score", marker='o', c='r')
+    ax.plot(depth, testing_score, label="training score", marker='*', c='b')
+    ax.set_xlabel("maxdepth")
+    ax.set_ylabel("score")
+    ax.set_title("Decision Tree Classfication")
+    ax.legend(framealpha=0.5, loc='beat')
+    plt.show()
+
+
 if __name__ == '__main__':
     X_train, X_test, y_train, y_test = load_data()
     test_DecisionTreeClassifier(X_train, X_test, y_train, y_test)
+    # test_DecisonTreeClassfier_criterion(X_train, X_test, y_train, y_test)
+    # test_DecisonTreeClassfier_splitter(X_train, X_test, y_train, y_test )
+    test_DecisonTreeClassfier_depth(X_train, X_test, y_train, y_test, maxdepth=20)
+
