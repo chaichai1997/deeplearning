@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" line="82" />
+    <bookmark url="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" line="84" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/machine learning/algorithmtest/GaussianNB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" afterDir="false" />
     </list>
@@ -40,43 +41,58 @@
           <entry key="data" value="7" />
           <entry key="data-00000-of-00001" value="1" />
           <entry key="ipynb" value="13" />
-          <entry key="py" value="62" />
+          <entry key="out" value="1" />
+          <entry key="py" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="13" />
           <entry key="Image" value="1" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="62" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="13870" />
-          <entry key="txt" value="247" />
+          <entry key="py" value="14231" />
+          <entry key="txt" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="285" />
-          <entry key="Python" value="13870" />
+          <entry key="PLAIN_TEXT" value="294" />
+          <entry key="Python" value="14231" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="213">
+              <caret line="55" column="84" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
               <folding>
-                <marker date="1552893927591" expanded="true" signature="206:1463" ph="..." />
-                <marker date="1552893927591" expanded="true" signature="1504:1509" ph="..." />
-                <marker date="1552893927591" expanded="true" signature="2679:3410" ph="..." />
+                <marker date="1552899404586" expanded="true" signature="206:1463" ph="..." />
+                <marker date="1552899404586" expanded="true" signature="1504:1509" ph="..." />
+                <marker date="1552899404586" expanded="true" signature="2811:3541" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/GaussianNB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+              <folding>
+                <element signature="e#25#83#0" expanded="true" />
+                <marker date="1552899563999" expanded="true" signature="152:157" ph="..." />
+                <marker date="1552899563999" expanded="true" signature="381:386" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,6 +143,7 @@
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/LogisticRegressionTest.py" />
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/DecisionTreeRegressor.py" />
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" />
+        <option value="$PROJECT_DIR$/machine learning/algorithmtest/GaussianNB.py" />
       </list>
     </option>
   </component>
@@ -198,7 +215,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552828251608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552899568130" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -224,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DecisonTreeClassifier">
+  <component name="RunManager" selected="Python.GaussianNB">
     <configuration name="DecisionTreeRegressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,6 +284,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="GaussianNB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning/algorithmtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/GaussianNB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LinearDiscriminantAna;ysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,27 +318,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/LinearDiscriminantAna;ysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LinearRegressionTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning/algorithmtest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/LinearRegressionTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,19 +348,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LinearRegressionTest" />
       <item itemvalue="Python.LogisticRegressionTest" />
       <item itemvalue="Python.LinearDiscriminantAna;ysis" />
       <item itemvalue="Python.DecisionTreeRegressor" />
       <item itemvalue="Python.DecisonTreeClassifier" />
+      <item itemvalue="Python.GaussianNB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GaussianNB" />
         <item itemvalue="Python.DecisonTreeClassifier" />
         <item itemvalue="Python.DecisionTreeRegressor" />
         <item itemvalue="Python.LinearDiscriminantAna;ysis" />
         <item itemvalue="Python.LogisticRegressionTest" />
-        <item itemvalue="Python.LinearRegressionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552828249007</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DecisionTreeClassifier参数影响测试">
+      <created>1552894081832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552894081832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -488,7 +512,8 @@
     <MESSAGE value="LDA 线性判别分析（鸢尾花）" />
     <MESSAGE value="DecisionTreeRegession 决策树回归即参数影响（切分方式与决策树深度" />
     <MESSAGE value="DecisionTreeClassifier 决策树分类基本调用方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="DecisionTreeClassifier 决策树分类基本调用方式" />
+    <MESSAGE value="DecisionTreeClassifier参数影响测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="DecisionTreeClassifier参数影响测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,9 +534,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/jedi/api/interpreter.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/alogrithm/BP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -788,19 +810,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/figure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1155">
-          <caret line="1216" column="8" selection-start-line="1216" selection-start-column="8" selection-end-line="1216" selection-end-column="8" />
+        <state relative-caret-position="50">
+          <caret line="1687" lean-forward="true" selection-start-line="1687" selection-end-line="1687" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="213">
+          <caret line="55" column="84" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
           <folding>
-            <marker date="1552893927591" expanded="true" signature="206:1463" ph="..." />
-            <marker date="1552893927591" expanded="true" signature="1504:1509" ph="..." />
-            <marker date="1552893927591" expanded="true" signature="2679:3410" ph="..." />
+            <marker date="1552899404586" expanded="true" signature="206:1463" ph="..." />
+            <marker date="1552899404586" expanded="true" signature="1504:1509" ph="..." />
+            <marker date="1552899404586" expanded="true" signature="2811:3541" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/GaussianNB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="e#25#83#0" expanded="true" />
+            <marker date="1552899563999" expanded="true" signature="152:157" ph="..." />
+            <marker date="1552899563999" expanded="true" signature="381:386" ph="..." />
           </folding>
         </state>
       </provider>

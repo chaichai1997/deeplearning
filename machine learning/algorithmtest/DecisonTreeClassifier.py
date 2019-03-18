@@ -52,6 +52,8 @@ def test_DecisionTreeClassifier(*args):
     X_train, X_test, y_train, y_test =args
     clf = DecisionTreeClassifier()
     clf.fit(X_train, y_train)
+    from sklearn.tree import export_graphviz
+    export_graphviz(clf, "E:/deep learning/code/machine learning/algorithmtest/out  ")
     print("training score", clf.score(X_train, y_train))
     print("test score", clf.score(X_test, y_test))
 
@@ -114,7 +116,7 @@ def test_DecisonTreeClassfier_depth(*args, maxdepth):
     ax.set_xlabel("maxdepth")
     ax.set_ylabel("score")
     ax.set_title("Decision Tree Classfication")
-    ax.legend(framealpha=0.5, loc='beat')
+    ax.legend(framealpha=0.5, loc='best')
     plt.show()
 
 
