@@ -17,18 +17,6 @@ def load_classification_data():
 
 
 """
-  在sin函数的基础上添加噪声点
-"""
-
-
-def create_regression_data(n):
-    X = 5 * np.random.rand(n, 1)
-    y = np.sin(X).ravel()
-    y[::5] += 1*(0.5-np.random.rand(int(n/5)))
-    return model_selection.train_test_split(X, y, test_size=0.25, random_state=0)
-
-
-"""
 def __init__(self, n_neighbors=5,
                  weights='uniform', algorithm='auto', leaf_size=30,
                  p=2, metric='minkowski', metric_params=None, n_jobs=None,
