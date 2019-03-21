@@ -50,12 +50,14 @@ def __init__(self, n_neighbors=5,
     方法
         fit(X, Y)训练模型
         predict（X）预测
-        score() 预测准确度
+        score() 预测准确度                                                                 
         predict_proba(X)：返回样本为每种标记的概率
         kneighboes(X, n_neifhbors, return distance):返回样本的K近邻点
         
         
 """
+
+
 def test_KNNClassifier(*args):
     X_train, X_test, y_train, y_test = args
     clf = neighbors.KNeighborsClassifier()
@@ -64,8 +66,69 @@ def test_KNNClassifier(*args):
     print("Testing Score:", clf.score(X_test, y_test))
 
 
+"""
+    测试k值以及投票策略对预测性能的影响
+"""
+def test_KNNClassifier_k_w(*args):
+    X_train, X_test, y_train,y_test = args
+    ks = np.linspace(1, y_train.size, num=100, endpoint=False, dtype='int')
+    weights = ['uniform', 'distance']
+
+    # 绘图
+    fig = plt.figure()
+    ax = fig.add_subplot(1, 1, 1)
+    for i in weights:
+        training_scores = []
+        testing_scores = []
+        for k in ks:
+            clf = neighbors.KNeighborsClassifier(weights=i, n_neighbors=k)
+            clf.fit(X_train, y_train)
+            testing_scores.append(clf.score(X_train, y_train))
+            training_scores.append(clf.score(X_test, y_test))
+        ax.plot(ks, testing_scores, label="test score: weight=%s" % i)
+        ax.plot(ks, training_scores, label="training score: weight=%s" % i)
+    ax.legend(loc='best')
+    ax.set_xlabel("k")
+    ax.set_ylabel('score')
+    ax.set_ylim(0, 1.05)
+    ax.set_title("KNNClassifier")
+    plt.show()
+
+
+"""
+测试P值对预测性能的影响
+"""
+
+
+def test_KNNClassifier_k_p(*args):
+    X_train, X_test, y_train, y_test = args
+    ks = np.linspace(1, y_train.size, endpoint=False, dtype='int')
+    ps = [1, 2, 10]
+
+    fig = plt.figure()
+    ax = fig.add_subplot(1, 1, 1)
+    for i in ps:
+        training_score = []
+        testing_score = []
+        for k in ks:
+            clf = neighbors.KNeighborsClassifier(p=i, n_neighbors=k)
+            clf.fit(X_train, y_train)
+            training_score.append(clf.score(X_train, y_train))
+            testing_score.append(clf.score(X_test, y_test))
+        ax.plot(ks, testing_score, label="test score: p=%s" % i)
+        ax.plot(ks, training_score, label="training score: p=%s" % i)
+    ax.legend(loc='best')
+    ax.set_xlabel("k")
+    ax.set_ylabel('score')
+    ax.set_ylim(0, 1.05)
+    ax.set_title("KNNClassifier")
+    plt.show()
+
+
 if __name__ == '__main__':
     X_train, X_test, y_train, y_test = load_classification_data()
-    test_KNNClassifier(X_train, X_test, y_train, y_test)
+    # test_KNNClassifier(X_train, X_test, y_train, y_test)
+    # test_KNNClassifier_k_w(X_train, X_test, y_train, y_test)
+    test_KNNClassifier_k_p(X_train, X_test, y_train, y_test)
 
 
