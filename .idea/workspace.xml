@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/machine learning/algorithmtest/KNNRegressor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencvmoduel/Basic Operations.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencvmoduel/imagegradient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machine learning/algorithmtest/KNNClssifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine learning/algorithmtest/KNNClssifier.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +21,18 @@
     <session id="1747600691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,71 +41,37 @@
           <entry key="PNG" value="1" />
           <entry key="data" value="7" />
           <entry key="data-00000-of-00001" value="1" />
-          <entry key="ipynb" value="13" />
+          <entry key="ipynb" value="16" />
+          <entry key="jpg" value="3" />
           <entry key="out" value="1" />
-          <entry key="py" value="78" />
+          <entry key="py" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="13" />
-          <entry key="Image" value="1" />
+          <entry key="IPNB" value="16" />
+          <entry key="Image" value="4" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="78" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="18259" />
-          <entry key="txt" value="357" />
+          <entry key="py" value="18727" />
+          <entry key="txt" value="397" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="395" />
-          <entry key="Python" value="18259" />
+          <entry key="PLAIN_TEXT" value="435" />
+          <entry key="Python" value="18727" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/KNNClssifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="42" selection-end-column="61" />
-              <folding>
-                <marker date="1553147534400" expanded="true" signature="2621:3421" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/KNNRegressor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-              <folding>
-                <marker date="1553149424890" expanded="true" signature="1345:1346" ph="..." />
-                <marker date="1553149424890" expanded="true" signature="1642:2494" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/sklearn/neighbors/regression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="124" column="4" lean-forward="true" selection-start-line="124" selection-start-column="4" selection-end-line="127" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,13 +121,18 @@
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/BernoulliNB.py" />
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/KNNClssifier.py" />
         <option value="$PROJECT_DIR$/machine learning/algorithmtest/KNNRegressor.py" />
+        <option value="$PROJECT_DIR$/opencvmoduel/imagegradient.py" />
+        <option value="$PROJECT_DIR$/opencvmoduel/changecolorspace.py" />
+        <option value="$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py" />
+        <option value="$PROJECT_DIR$/opencvmoduel/Basic Operations.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="349" />
+    <option name="x" value="312" />
+    <option name="y" value="5" />
     <option name="width" value="1031" />
-    <option name="height" value="735" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -198,7 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,27 +177,16 @@
               <item name="numbersci" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="numbersci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="numbersci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithmtest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553149762408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553335350917" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -235,9 +195,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\deep learning\code\opencvmoduel" />
+      <recent name="E:\deep learning\code" />
       <recent name="E:\deep learning\code\machine learning\module-test" />
       <recent name="E:\deep learning\code\machine learning" />
-      <recent name="E:\deep learning\code" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,8 +213,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KNNRegressor">
-    <configuration name="BernoulliNB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Changing Colorspace">
+    <configuration name="Changing Colorspace" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,11 +222,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning/algorithmtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencvmoduel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/BernoulliNB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/Changing Colorspace.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GaussianNB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GeometricTransformation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,11 +243,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning/algorithmtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencvmoduel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/GaussianNB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,7 +298,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MultinomialNB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="imagegradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,11 +306,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning/algorithmtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencvmoduel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/MultinomialNB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/imagegradient.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,19 +320,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.GaussianNB" />
-      <item itemvalue="Python.MultinomialNB" />
-      <item itemvalue="Python.BernoulliNB" />
       <item itemvalue="Python.KNNClssifier" />
       <item itemvalue="Python.KNNRegressor" />
+      <item itemvalue="Python.imagegradient" />
+      <item itemvalue="Python.GeometricTransformation" />
+      <item itemvalue="Python.Changing Colorspace" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Changing Colorspace" />
+        <item itemvalue="Python.GeometricTransformation" />
+        <item itemvalue="Python.imagegradient" />
         <item itemvalue="Python.KNNRegressor" />
         <item itemvalue="Python.KNNClssifier" />
-        <item itemvalue="Python.BernoulliNB" />
-        <item itemvalue="Python.MultinomialNB" />
-        <item itemvalue="Python.GaussianNB" />
       </list>
     </recent_temporary>
   </component>
@@ -484,14 +445,20 @@
       <option name="project" value="LOCAL" />
       <updated>1553145767700</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="KNNRegressor及K，投票权重等对性能的影响">
+      <created>1553149848080</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553149848080</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="348" y="2" width="1031" height="739" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20494336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,12 +467,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40710825" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3228477" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39833334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22003284" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37086093" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Dependency Viewer" order="10" visible="true" weight="0.32840723" />
@@ -519,7 +486,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08850227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20494336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -527,15 +494,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45155993" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3228477" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39833334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37086093" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="10" visible="true" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -564,7 +532,8 @@
     <MESSAGE value="BernoulliNB伯努利贝叶斯分类器及α对其的影响" />
     <MESSAGE value="KNN" />
     <MESSAGE value="KNN，k值，距离度量，投票权重等对模型的影响" />
-    <option name="LAST_COMMIT_MESSAGE" value="KNN，k值，距离度量，投票权重等对模型的影响" />
+    <MESSAGE value="KNNRegressor及K，投票权重等对性能的影响" />
+    <option name="LAST_COMMIT_MESSAGE" value="KNNRegressor及K，投票权重等对性能的影响" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,40 +554,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/imagedeal/PILtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/iris.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datairis.data" />
-    <entry file="file://$PROJECT_DIR$/machine learning/matplotlibfunction.py" />
-    <entry file="file://$PROJECT_DIR$/machine learning/module-test/pandasfunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine learning/module-test/Untitled.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine learning/module-test/matplot.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/numpy/core/multiarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1595">
@@ -902,26 +837,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/KNNRegressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/KNNClssifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="42" selection-end-column="61" />
+        <state relative-caret-position="50">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="76" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/changecolorspace.py" />
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/Basic Operations.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="16" />
           <folding>
-            <marker date="1553147534400" expanded="true" signature="2621:3421" ph="..." />
+            <element signature="e#39#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/machine learning/algorithmtest/KNNRegressor.py">
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/imagegradient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding>
-            <marker date="1553149424890" expanded="true" signature="1345:1346" ph="..." />
-            <marker date="1553149424890" expanded="true" signature="1642:2494" ph="..." />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2952">
+          <caret line="940" column="4" selection-start-line="940" selection-start-column="4" selection-end-line="940" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/python_stubs/292968200/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="7320" column="8" lean-forward="true" selection-start-line="7320" selection-start-column="8" selection-end-line="7320" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/test.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
