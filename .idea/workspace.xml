@@ -6,9 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/opencvmoduel/Basic Operations.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencvmoduel/imagegradient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencvmoduel/Changing Colorspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencvmoduel/Changing Colorspace.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +20,18 @@
     <session id="1747600691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,37 +40,50 @@
           <entry key="PNG" value="1" />
           <entry key="data" value="7" />
           <entry key="data-00000-of-00001" value="1" />
-          <entry key="ipynb" value="16" />
+          <entry key="ipynb" value="17" />
           <entry key="jpg" value="3" />
           <entry key="out" value="1" />
-          <entry key="py" value="87" />
+          <entry key="py" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="16" />
+          <entry key="IPNB" value="17" />
           <entry key="Image" value="4" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="87" />
+          <entry key="Python" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="18727" />
-          <entry key="txt" value="397" />
+          <entry key="py" value="19593" />
+          <entry key="txt" value="420" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="435" />
-          <entry key="Python" value="18727" />
+          <entry key="PLAIN_TEXT" value="458" />
+          <entry key="Python" value="19593" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,13 +137,14 @@
         <option value="$PROJECT_DIR$/opencvmoduel/changecolorspace.py" />
         <option value="$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py" />
         <option value="$PROJECT_DIR$/opencvmoduel/Basic Operations.ipynb" />
+        <option value="$PROJECT_DIR$/opencvmoduel/Changing Colorspace.py" />
+        <option value="$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="312" />
-    <option name="y" value="5" />
-    <option name="width" value="1031" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="579" />
+    <option name="width" value="824" />
     <option name="height" value="739" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -170,6 +183,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,16 +191,20 @@
               <item name="numbersci" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="numbersci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="opencvmoduel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553335350917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553415998489" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -213,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Changing Colorspace">
+  <component name="RunManager" selected="Python.Geometric Transformations of Images">
     <configuration name="Changing Colorspace" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +253,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Geometric Transformations of Images" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencvmoduel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GeometricTransformation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,27 +287,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="KNNClssifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine learning/algorithmtest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine learning/algorithmtest/KNNClssifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,19 +338,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.KNNClssifier" />
       <item itemvalue="Python.KNNRegressor" />
       <item itemvalue="Python.imagegradient" />
       <item itemvalue="Python.GeometricTransformation" />
       <item itemvalue="Python.Changing Colorspace" />
+      <item itemvalue="Python.Geometric Transformations of Images" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Geometric Transformations of Images" />
         <item itemvalue="Python.Changing Colorspace" />
         <item itemvalue="Python.GeometricTransformation" />
         <item itemvalue="Python.imagegradient" />
         <item itemvalue="Python.KNNRegressor" />
-        <item itemvalue="Python.KNNClssifier" />
       </list>
     </recent_temporary>
   </component>
@@ -452,13 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553149848080</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="opencv coreoperation">
+      <created>1553335384853</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1553335384854</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="348" y="2" width="1031" height="739" extended-state="0" />
+    <frame x="579" y="0" width="824" height="739" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20494336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12172775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3228477" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29966888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39833334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,7 +559,8 @@
     <MESSAGE value="KNN" />
     <MESSAGE value="KNN，k值，距离度量，投票权重等对模型的影响" />
     <MESSAGE value="KNNRegressor及K，投票权重等对性能的影响" />
-    <option name="LAST_COMMIT_MESSAGE" value="KNNRegressor及K，投票权重等对性能的影响" />
+    <MESSAGE value="opencv coreoperation" />
+    <option name="LAST_COMMIT_MESSAGE" value="opencv coreoperation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,20 +581,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1595">
-          <caret line="700" column="36" selection-start-line="700" selection-start-column="36" selection-end-line="700" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine learning/神经网络实现逻辑或.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machine learning/基于最小二乘法的一元线性回归i.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -855,20 +868,10 @@
     <entry file="file://$PROJECT_DIR$/../env/deeplearning/Lib/site-packages/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencvmoduel/Basic Operations.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="43" column="16" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="16" />
-          <folding>
-            <element signature="e#39#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,15 +889,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/python_stubs/292968200/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="7320" column="8" lean-forward="true" selection-start-line="7320" selection-start-column="8" selection-end-line="7320" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/Basic Operations.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencvmoduel/test.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/python_stubs/292968200/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="7396" column="30" lean-forward="true" selection-start-line="7396" selection-start-column="30" selection-end-line="7396" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/Changing Colorspace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
