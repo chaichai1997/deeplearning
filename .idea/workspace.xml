@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencvmoduel/Changing Colorspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencvmoduel/Changing Colorspace.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,14 +56,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="19593" />
-          <entry key="txt" value="420" />
+          <entry key="py" value="19765" />
+          <entry key="txt" value="466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="458" />
-          <entry key="Python" value="19593" />
+          <entry key="PLAIN_TEXT" value="504" />
+          <entry key="Python" value="19765" />
         </counts>
       </usages-collector>
     </session>
@@ -74,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -204,7 +203,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553415998489" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553416914023" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -477,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553335384854</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changing colorspace 改变色彩空间并指定追踪固定色彩区间">
+      <created>1553416079619</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1553416079619</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -560,7 +566,8 @@
     <MESSAGE value="KNN，k值，距离度量，投票权重等对模型的影响" />
     <MESSAGE value="KNNRegressor及K，投票权重等对性能的影响" />
     <MESSAGE value="opencv coreoperation" />
-    <option name="LAST_COMMIT_MESSAGE" value="opencv coreoperation" />
+    <MESSAGE value="changing colorspace 改变色彩空间并指定追踪固定色彩区间" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing colorspace 改变色彩空间并指定追踪固定色彩区间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -918,8 +925,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
           </folding>
