@@ -6,9 +6,9 @@
     <bookmark url="file://$PROJECT_DIR$/opencvmoduel/image Thresholding.py" line="65" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="Average smoothing(3*3)">
+    <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/opencvmoduel/Morphological Transformations形态转换.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencvmoduel/smoothing images.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencvmoduel/smoothing images.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,45 +38,70 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="CSV" value="1" />
+          <entry key="JPG" value="1" />
           <entry key="PNG" value="1" />
           <entry key="data" value="7" />
           <entry key="data-00000-of-00001" value="1" />
           <entry key="ipynb" value="19" />
           <entry key="jpg" value="3" />
           <entry key="out" value="1" />
-          <entry key="py" value="105" />
+          <entry key="py" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="19" />
-          <entry key="Image" value="4" />
+          <entry key="Image" value="5" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="105" />
+          <entry key="Python" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="22347" />
-          <entry key="txt" value="603" />
+          <entry key="py" value="22865" />
+          <entry key="txt" value="644" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="641" />
-          <entry key="Python" value="22347" />
+          <entry key="PLAIN_TEXT" value="682" />
+          <entry key="Python" value="22865" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencvmoduel/image Thresholding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencvmoduel/smoothing images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+            <state relative-caret-position="325">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opencvmoduel/Morphological Transformations形态转换.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -142,10 +167,11 @@
         <option value="$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py" />
         <option value="$PROJECT_DIR$/opencvmoduel/image Thresholding.py" />
         <option value="$PROJECT_DIR$/opencvmoduel/smoothing images.py" />
+        <option value="$PROJECT_DIR$/opencvmoduel/Morphological Transformations形态转换.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="519" />
     <option name="y" value="7" />
     <option name="width" value="883" />
@@ -208,7 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553503229556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553507718353" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -235,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.smoothing images">
+  <component name="RunManager" selected="Python.Morphological Transformations形态转换">
     <configuration name="Changing Colorspace" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,7 +304,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GeometricTransformation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Morphological Transformations形态转换" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,7 +316,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/Morphological Transformations形态转换.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,19 +368,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.GeometricTransformation" />
       <item itemvalue="Python.Changing Colorspace" />
       <item itemvalue="Python.Geometric Transformations of Images" />
       <item itemvalue="Python.image Thresholding" />
       <item itemvalue="Python.smoothing images" />
+      <item itemvalue="Python.Morphological Transformations形态转换" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Morphological Transformations形态转换" />
         <item itemvalue="Python.smoothing images" />
         <item itemvalue="Python.image Thresholding" />
         <item itemvalue="Python.Geometric Transformations of Images" />
         <item itemvalue="Python.Changing Colorspace" />
-        <item itemvalue="Python.GeometricTransformation" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553501711249</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Gaussian、Median、Bilateral Filtering 滤波">
+      <created>1553503268329</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1553503268329</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -550,10 +583,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="519" y="7" width="883" height="738" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16160388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -562,7 +595,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.104477614" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10177706" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39833334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,7 +670,8 @@
     <MESSAGE value="Adaptive Thresholding 自适应阈值" />
     <MESSAGE value="2D convolution（image filter）图像滤波" />
     <MESSAGE value="Average smoothing(3*3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Average smoothing(3*3)" />
+    <MESSAGE value="Gaussian、Median、Bilateral Filtering 滤波" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gaussian、Median、Bilateral Filtering 滤波" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,19 +692,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/machine learning/module-test/pandastestiris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine learning/module-test/test.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/machine learning/module-test/imagetest.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -969,16 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencvmoduel/image Thresholding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/python_stubs/292968200/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -993,10 +1004,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/test3.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/opencvmoduel/smoothing images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="325">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/image Thresholding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/Morphological Transformations形态转换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
           </folding>
