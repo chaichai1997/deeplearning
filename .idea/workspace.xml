@@ -3,11 +3,13 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/machine learning/algorithmtest/DecisonTreeClassifier.py" line="84" />
     <bookmark url="file://$PROJECT_DIR$/machine learning/algorithmtest/MultinomialNB.py" line="68" />
+    <bookmark url="file://$PROJECT_DIR$/opencvmoduel/image Thresholding.py" line="65" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/opencvmoduel/image Thresholding.py" afterDir="false" />
+    <list default="true" id="8c2379eb-cd6c-400d-854a-a055ae23449f" name="Default Changelist" comment="Adaptive Thresholding 自适应阈值">
+      <change afterPath="$PROJECT_DIR$/opencvmoduel/smoothing images.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencvmoduel/image Thresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencvmoduel/image Thresholding.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,12 +28,12 @@
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,7 +45,7 @@
           <entry key="ipynb" value="19" />
           <entry key="jpg" value="3" />
           <entry key="out" value="1" />
-          <entry key="py" value="100" />
+          <entry key="py" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -51,43 +53,34 @@
           <entry key="IPNB" value="19" />
           <entry key="Image" value="4" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="100" />
+          <entry key="Python" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="20804" />
-          <entry key="txt" value="520" />
+          <entry key="py" value="21871" />
+          <entry key="txt" value="574" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="558" />
-          <entry key="Python" value="20804" />
+          <entry key="PLAIN_TEXT" value="612" />
+          <entry key="Python" value="21871" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opencvmoduel/image Thresholding.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opencvmoduel/smoothing images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="18" column="62" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="403">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/python_stubs/292968200/cv2/cv2/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="1910" selection-start-line="1910" selection-end-line="1910" />
             </state>
           </provider>
         </entry>
@@ -149,6 +142,7 @@
         <option value="$PROJECT_DIR$/opencvmoduel/Changing Colorspace.py" />
         <option value="$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py" />
         <option value="$PROJECT_DIR$/opencvmoduel/image Thresholding.py" />
+        <option value="$PROJECT_DIR$/opencvmoduel/smoothing images.py" />
       </list>
     </option>
   </component>
@@ -193,8 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,11 +203,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="interpreter&#9;FILE&#9;file://E:/deep learning/env/deeplearning/Lib/site-packages/jedi/api/interpreter.py" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553429446546" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553501187047" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -242,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image Thresholding">
+  <component name="RunManager" selected="Python.smoothing images">
     <configuration name="Changing Colorspace" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,7 +321,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="imagegradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="smoothing images" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,7 +333,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/imagegradient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencvmoduel/smoothing images.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,19 +343,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.imagegradient" />
       <item itemvalue="Python.GeometricTransformation" />
       <item itemvalue="Python.Changing Colorspace" />
       <item itemvalue="Python.Geometric Transformations of Images" />
       <item itemvalue="Python.image Thresholding" />
+      <item itemvalue="Python.smoothing images" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.smoothing images" />
         <item itemvalue="Python.image Thresholding" />
         <item itemvalue="Python.Geometric Transformations of Images" />
         <item itemvalue="Python.Changing Colorspace" />
         <item itemvalue="Python.GeometricTransformation" />
-        <item itemvalue="Python.imagegradient" />
       </list>
     </recent_temporary>
   </component>
@@ -516,13 +510,37 @@
       <option name="project" value="LOCAL" />
       <updated>1553428252572</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="simple threshold 简单阈值">
+      <created>1553480231095</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1553480231095</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Adaptive Thresholding 自适应阈值">
+      <created>1553481621317</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553481621317</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="487" y="5" width="883" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09909228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16160388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -531,14 +549,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42972535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16583748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39833334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37086093" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956383" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36995155" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="10" visible="true" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -602,7 +620,9 @@
     <MESSAGE value="image scaling and rotation 图像缩放与旋转" />
     <MESSAGE value="Affine Transformation 仿射变化" />
     <MESSAGE value="Perspective Transformation 透视变化" />
-    <option name="LAST_COMMIT_MESSAGE" value="Perspective Transformation 透视变化" />
+    <MESSAGE value="simple threshold 简单阈值" />
+    <MESSAGE value="Adaptive Thresholding 自适应阈值" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaptive Thresholding 自适应阈值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -623,7 +643,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/linearregression.py" />
     <entry file="file://$PROJECT_DIR$/machine learning/module-test/pandastestiris.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -906,20 +925,11 @@
     <entry file="file://$PROJECT_DIR$/opencvmoduel/test.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/GeometricTransformation.py" />
     <entry file="file://$PROJECT_DIR$/opencvmoduel/Geometric Transformations of Images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-175">
           <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,16 +958,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-97">
           <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/opencvmoduel/image Thresholding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="62" />
+        <state relative-caret-position="2050">
+          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
           </folding>
@@ -966,8 +973,18 @@
     </entry>
     <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/python_stubs/292968200/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="1910" selection-start-line="1910" selection-end-line="1910" />
+        <state relative-caret-position="150">
+          <caret line="2267" column="7" selection-start-line="2267" selection-start-column="7" selection-end-line="2277" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvmoduel/smoothing images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

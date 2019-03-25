@@ -76,4 +76,36 @@ cv2.AdaptiveThreshold
 #     plt.yticks([])
 # plt.show()
 
-# Ostu's Binarization
+# Ostu's Binarization 双峰图像二值化（直方图有两个峰值的图像），得到双峰间的近似值
+# global thresholding
+
+# image thresholiding 图像阈值化
+img1 = cv2.imread("test4.jpg", 0)
+# 将彩色图像转换为灰度图像
+gray2 = cv2.cvtColor(img1, cv2.CV_8U)
+ret1, th1 = cv2.threshold(gray2, 127, 255, cv2.THRESH_BINARY)
+
+# Otsu's thresholding
+ret2, th2 = cv2.threshold(gray2, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
+
+# Otsu's thresholding after Gaussian filtering
+blur = cv2.GaussianBlur(gray2, (5, 5), 0)
+ret3, th3 = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
+
+# plot all the images and their histograms
+images = [gray2, 0, th1,
+          gray2, 0, th2,
+          blur, 0, th3]
+titles = ['Original Noisy Image', 'Histogram', 'Global Thresholding (v=127)',
+          'Original Noisy Image', 'Histogram', "Otsu's Thresholding",
+          'Gaussian filtered Image', 'Histogram', "Otsu's Thresholding"]
+
+for i in range(3):
+    plt.subplot(3, 3, i*3+1), plt.imshow(images[i*3], 'gray')
+    plt.title(titles[i*3]), plt.xticks([]), plt.yticks([])
+    plt.subplot(3, 3, i*3+2), plt.hist(images[i*3].ravel(), 256)
+    plt.title(titles[i*3+1]), plt.xticks([]), plt.yticks([])
+    plt.subplot(3, 3, i*3+3), plt.imshow(images[i*3+2], 'gray')
+    plt.title(titles[i*3+2]), plt.xticks([]), plt.yticks([])
+plt.show()
+
